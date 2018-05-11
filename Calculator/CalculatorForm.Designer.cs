@@ -56,189 +56,206 @@
             // 
             // numBtn_1
             // 
+            this.numBtn_1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_1.Location = new System.Drawing.Point(12, 216);
             this.numBtn_1.Name = "numBtn_1";
             this.numBtn_1.Size = new System.Drawing.Size(45, 45);
             this.numBtn_1.TabIndex = 0;
             this.numBtn_1.Text = "1";
-            this.numBtn_1.UseVisualStyleBackColor = true;
+            this.numBtn_1.UseVisualStyleBackColor = false;
             this.numBtn_1.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_2
             // 
+            this.numBtn_2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_2.Location = new System.Drawing.Point(63, 216);
             this.numBtn_2.Name = "numBtn_2";
             this.numBtn_2.Size = new System.Drawing.Size(45, 45);
             this.numBtn_2.TabIndex = 1;
             this.numBtn_2.Text = "2";
-            this.numBtn_2.UseVisualStyleBackColor = true;
+            this.numBtn_2.UseVisualStyleBackColor = false;
             this.numBtn_2.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_3
             // 
+            this.numBtn_3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_3.Location = new System.Drawing.Point(114, 216);
             this.numBtn_3.Name = "numBtn_3";
             this.numBtn_3.Size = new System.Drawing.Size(45, 45);
             this.numBtn_3.TabIndex = 2;
             this.numBtn_3.Text = "3";
-            this.numBtn_3.UseVisualStyleBackColor = true;
+            this.numBtn_3.UseVisualStyleBackColor = false;
             this.numBtn_3.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_6
             // 
+            this.numBtn_6.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_6.Location = new System.Drawing.Point(114, 165);
             this.numBtn_6.Name = "numBtn_6";
             this.numBtn_6.Size = new System.Drawing.Size(45, 45);
             this.numBtn_6.TabIndex = 3;
             this.numBtn_6.Text = "6";
-            this.numBtn_6.UseVisualStyleBackColor = true;
+            this.numBtn_6.UseVisualStyleBackColor = false;
             this.numBtn_6.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_5
             // 
+            this.numBtn_5.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_5.Location = new System.Drawing.Point(63, 165);
             this.numBtn_5.Name = "numBtn_5";
             this.numBtn_5.Size = new System.Drawing.Size(45, 45);
             this.numBtn_5.TabIndex = 4;
             this.numBtn_5.Text = "5";
-            this.numBtn_5.UseVisualStyleBackColor = true;
+            this.numBtn_5.UseVisualStyleBackColor = false;
             this.numBtn_5.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_4
             // 
+            this.numBtn_4.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_4.Location = new System.Drawing.Point(12, 165);
             this.numBtn_4.Name = "numBtn_4";
             this.numBtn_4.Size = new System.Drawing.Size(45, 45);
             this.numBtn_4.TabIndex = 5;
             this.numBtn_4.Text = "4";
-            this.numBtn_4.UseVisualStyleBackColor = true;
+            this.numBtn_4.UseVisualStyleBackColor = false;
             this.numBtn_4.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_9
             // 
+            this.numBtn_9.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_9.Location = new System.Drawing.Point(114, 114);
             this.numBtn_9.Name = "numBtn_9";
             this.numBtn_9.Size = new System.Drawing.Size(45, 45);
             this.numBtn_9.TabIndex = 6;
             this.numBtn_9.Text = "9";
-            this.numBtn_9.UseVisualStyleBackColor = true;
+            this.numBtn_9.UseVisualStyleBackColor = false;
             this.numBtn_9.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_8
             // 
+            this.numBtn_8.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_8.Location = new System.Drawing.Point(63, 114);
             this.numBtn_8.Name = "numBtn_8";
             this.numBtn_8.Size = new System.Drawing.Size(45, 45);
             this.numBtn_8.TabIndex = 7;
             this.numBtn_8.Text = "8";
-            this.numBtn_8.UseVisualStyleBackColor = true;
+            this.numBtn_8.UseVisualStyleBackColor = false;
             this.numBtn_8.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_7
             // 
+            this.numBtn_7.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_7.Location = new System.Drawing.Point(12, 114);
             this.numBtn_7.Name = "numBtn_7";
             this.numBtn_7.Size = new System.Drawing.Size(45, 45);
             this.numBtn_7.TabIndex = 8;
             this.numBtn_7.Text = "7";
-            this.numBtn_7.UseVisualStyleBackColor = true;
+            this.numBtn_7.UseVisualStyleBackColor = false;
             this.numBtn_7.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // numBtn_0
             // 
+            this.numBtn_0.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.numBtn_0.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numBtn_0.Location = new System.Drawing.Point(12, 267);
             this.numBtn_0.Name = "numBtn_0";
             this.numBtn_0.Size = new System.Drawing.Size(96, 45);
             this.numBtn_0.TabIndex = 9;
             this.numBtn_0.Text = "0";
-            this.numBtn_0.UseVisualStyleBackColor = true;
+            this.numBtn_0.UseVisualStyleBackColor = false;
             this.numBtn_0.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // decimalBtn
             // 
+            this.decimalBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.decimalBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.decimalBtn.Location = new System.Drawing.Point(114, 267);
             this.decimalBtn.Name = "decimalBtn";
             this.decimalBtn.Size = new System.Drawing.Size(45, 45);
             this.decimalBtn.TabIndex = 10;
             this.decimalBtn.Text = ",";
-            this.decimalBtn.UseVisualStyleBackColor = true;
+            this.decimalBtn.UseVisualStyleBackColor = false;
             this.decimalBtn.Click += new System.EventHandler(this.DecimalPointBtn_Click);
             // 
             // percentBtn
             // 
+            this.percentBtn.BackColor = System.Drawing.SystemColors.Info;
             this.percentBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.percentBtn.Location = new System.Drawing.Point(216, 165);
             this.percentBtn.Name = "percentBtn";
             this.percentBtn.Size = new System.Drawing.Size(45, 45);
             this.percentBtn.TabIndex = 11;
             this.percentBtn.Text = "%";
-            this.percentBtn.UseVisualStyleBackColor = true;
-            this.percentBtn.Click += new System.EventHandler(this.Operator_Click);
+            this.percentBtn.UseVisualStyleBackColor = false;
+            this.percentBtn.Click += new System.EventHandler(this.PercentBtn_Click);
             // 
             // equalsBtn
             // 
+            this.equalsBtn.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.equalsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equalsBtn.Location = new System.Drawing.Point(216, 216);
             this.equalsBtn.Name = "equalsBtn";
             this.equalsBtn.Size = new System.Drawing.Size(45, 96);
             this.equalsBtn.TabIndex = 12;
             this.equalsBtn.Text = "=";
-            this.equalsBtn.UseVisualStyleBackColor = true;
+            this.equalsBtn.UseVisualStyleBackColor = false;
             this.equalsBtn.Click += new System.EventHandler(this.EqualsBtn_Click);
             // 
             // memoryBtn_R
             // 
+            this.memoryBtn_R.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.memoryBtn_R.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memoryBtn_R.Location = new System.Drawing.Point(12, 63);
             this.memoryBtn_R.Name = "memoryBtn_R";
             this.memoryBtn_R.Size = new System.Drawing.Size(45, 45);
             this.memoryBtn_R.TabIndex = 13;
             this.memoryBtn_R.Text = "MR";
-            this.memoryBtn_R.UseVisualStyleBackColor = true;
+            this.memoryBtn_R.UseVisualStyleBackColor = false;
             this.memoryBtn_R.Click += new System.EventHandler(this.MemoryBtn_R_Click);
             // 
             // memoryBtn_C
             // 
+            this.memoryBtn_C.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.memoryBtn_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memoryBtn_C.Location = new System.Drawing.Point(165, 64);
             this.memoryBtn_C.Name = "memoryBtn_C";
             this.memoryBtn_C.Size = new System.Drawing.Size(45, 45);
             this.memoryBtn_C.TabIndex = 14;
             this.memoryBtn_C.Text = "MC";
-            this.memoryBtn_C.UseVisualStyleBackColor = true;
+            this.memoryBtn_C.UseVisualStyleBackColor = false;
             this.memoryBtn_C.Click += new System.EventHandler(this.MemoryBtn_C_Click);
             // 
             // memoryBtn_Minus
             // 
+            this.memoryBtn_Minus.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.memoryBtn_Minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memoryBtn_Minus.Location = new System.Drawing.Point(114, 64);
             this.memoryBtn_Minus.Name = "memoryBtn_Minus";
             this.memoryBtn_Minus.Size = new System.Drawing.Size(45, 45);
             this.memoryBtn_Minus.TabIndex = 15;
             this.memoryBtn_Minus.Text = "M-";
-            this.memoryBtn_Minus.UseVisualStyleBackColor = true;
+            this.memoryBtn_Minus.UseVisualStyleBackColor = false;
             this.memoryBtn_Minus.Click += new System.EventHandler(this.MemoryBtn_Minus_Click);
             // 
             // memoryBtn_Plus
             // 
+            this.memoryBtn_Plus.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.memoryBtn_Plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.memoryBtn_Plus.Location = new System.Drawing.Point(63, 64);
             this.memoryBtn_Plus.Name = "memoryBtn_Plus";
             this.memoryBtn_Plus.Size = new System.Drawing.Size(45, 45);
             this.memoryBtn_Plus.TabIndex = 16;
             this.memoryBtn_Plus.Text = "M+";
-            this.memoryBtn_Plus.UseVisualStyleBackColor = true;
+            this.memoryBtn_Plus.UseVisualStyleBackColor = false;
             this.memoryBtn_Plus.Click += new System.EventHandler(this.MemoryBtn_Plus_Click);
             // 
             // divisionBtn
@@ -287,13 +304,14 @@
             // 
             // clearBtn
             // 
+            this.clearBtn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearBtn.Location = new System.Drawing.Point(216, 63);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(45, 45);
             this.clearBtn.TabIndex = 21;
             this.clearBtn.Text = "C";
-            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.UseVisualStyleBackColor = false;
             this.clearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
             // result
@@ -308,13 +326,14 @@
             // 
             // clearEntryBtn
             // 
+            this.clearEntryBtn.BackColor = System.Drawing.SystemColors.Info;
             this.clearEntryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearEntryBtn.Location = new System.Drawing.Point(217, 114);
             this.clearEntryBtn.Name = "clearEntryBtn";
             this.clearEntryBtn.Size = new System.Drawing.Size(45, 45);
             this.clearEntryBtn.TabIndex = 23;
             this.clearEntryBtn.Text = "Hst";
-            this.clearEntryBtn.UseVisualStyleBackColor = true;
+            this.clearEntryBtn.UseVisualStyleBackColor = false;
             this.clearEntryBtn.Click += new System.EventHandler(this.HistoryBtn_Click);
             // 
             // Calculator

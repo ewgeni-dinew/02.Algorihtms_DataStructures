@@ -148,6 +148,20 @@ namespace Calculator
             this.operation_activated = true;
         }
 
+        private void PercentBtn_Click(object sender, EventArgs e)
+        {
+            if (num1.Equals(int.MinValue))
+            {
+                return;
+            }
+
+            this.num2 = decimal.Parse(result.Text);
+            var temp = this.num2;
+            this.num2 = temp / 100 * this.num1;
+            result.Text = this.num2.ToString();
+            CalculateSum();
+        }
+
         private void EqualsBtn_Click(object sender, EventArgs e)
         {
             //Ensure that Equals_Btn doesn't work if pressed incorreclty
@@ -157,7 +171,7 @@ namespace Calculator
             }
 
             CalculateSum();
-            this.builder.Append(Environment.NewLine + "=" + Environment.NewLine);
+            this.builder.AppendLine(Environment.NewLine + "=");
             this.builder.AppendLine(Math.Round(this.value, 7).ToString());
         }
 
@@ -212,6 +226,7 @@ namespace Calculator
             this.num2 = decimal.Parse(result.Text);
         }
 
+        //removes unnecessary '0'-s after the decimal point, if there are any
         private void ValidateNumber(string number)
         {
             if (!number.Contains(','))
@@ -223,7 +238,14 @@ namespace Calculator
 
             var lastIndexOfNum = Array.FindLastIndex(tokens[1].ToCharArray(), item => item != '0');
 
-            if (lastIndexOfNum.Equals(tokens[1].Length - 1))
+            //Is activated only when the number has only '0'-s after the decimal point 
+            if (lastIndexOfNum.Equals(-1))
+            {
+                result.Text = tokens[0];
+                return;
+            }
+            //Is activated when the decimal part of the num is in the correct format and needs no modification
+            else if (lastIndexOfNum.Equals(tokens[1].Length - 1))
             {
                 return;
             }
@@ -237,6 +259,7 @@ namespace Calculator
             }
         }
 
+        //removes unnecessary '0'-s before the decimal point, if there are any
         private void ValidateNumberLeadingDecimalZeros()
         {
             if (this.decimal_activated)
